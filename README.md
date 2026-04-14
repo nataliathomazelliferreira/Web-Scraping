@@ -37,50 +37,20 @@ O script executa as seguintes etapas:
 
 ## Como executar o projeto
 
-Siga os passos abaixo para configurar e executar o projeto em seu ambiente local.
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/nataliathomazelliferreira/Web-Scraping.git
-````
-
-Acesse o diretório do projeto:
+1. Clone o repositório  
+2. Crie um ambiente virtual  
+3. Ative o ambiente virtual  
+4. Instale as dependências  
+5. Execute o script  
 
 ```bash
-cd Web-Scraping
-```
-
-Crie um ambiente virtual:
-
-```bash
-python3 -m venv venv
-```
-
-Ative o ambiente virtual:
-
-Linux/Mac:
-
-```bash
-source venv/bin/activate
-```
-
-Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Instale as dependências:
-
-```bash
-pip install -r requirements.txt
-```
-
-Execute o script:
-
-```bash
-python procurando_worksheets.py
+1. git clone https://github.com/nataliathomazelliferreira/Web-Scraping.git
+cd Web-Scraping/
+2. python3 -m venv venv
+3. source venv/bin/activate   # se seu computador for Linux/Mac
+3. venv\Scripts\activate      # se for Windows
+4. pip install -r requirements.txt
+5. python nome_do_arquivo.py
 ```
 
 ## Exemplo de saída
