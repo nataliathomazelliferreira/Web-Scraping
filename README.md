@@ -1,6 +1,3 @@
-Aqui está um README completo, organizado e pronto para uso no GitHub:
-
-````md
 # Web Scraping de Worksheets - AgendaWeb
 
 Este projeto foi desenvolvido como atividade prática da disciplina de Linguagem de Programação II.
@@ -9,7 +6,6 @@ A proposta consiste na criação de um script em Python capaz de realizar web sc
 
 A motivação do projeto surgiu a partir de uma necessidade real. Como professora de inglês, eu frequentemente busco por materiais complementares e exercícios. Este projeto automatiza esse processo, permitindo a extração rápida e organizada dos links disponíveis.
 
----
 
 ## Funcionalidades
 
@@ -19,7 +15,6 @@ A motivação do projeto surgiu a partir de uma necessidade real. Como professor
 - Exibe os resultados no terminal
 - Salva os links em um arquivo `worksheets.txt`
 
----
 
 ## Como funciona
 
@@ -32,7 +27,6 @@ O script executa as seguintes etapas:
 5. Exibe os resultados no terminal
 6. Salva os dados em um arquivo de texto
 
----
 
 ## Tecnologias utilizadas
 
@@ -40,7 +34,6 @@ O script executa as seguintes etapas:
 - requests
 - BeautifulSoup
 
----
 
 ## Como executar o projeto
 
@@ -87,34 +80,12 @@ pip install -r requirements.txt
 Execute o script:
 
 ```bash
-python nome_do_arquivo.py
+python procurando_worksheets.py
 ```
-
----
 
 ## Exemplo de saída
 
-```bash
-Worksheets encontrados:
-
-Present Simple -> https://...
-Past Tense -> https://...
-
 Links salvos em worksheets.txt
-```
-
----
-
-## Estrutura do projeto
-
-```bash
-.
-├── nome_do_arquivo.py
-├── requirements.txt
-└── worksheets.txt
-```
-
----
 
 ## Dependências
 
@@ -129,13 +100,10 @@ typing_extensions==4.15.0
 urllib3==2.6.3
 ```
 
----
-
 ## Melhorias futuras
 
 * Filtrar worksheets por categoria ou nível
 * Implementar um menu simples, para escolher qual conteúdo deseja
 
----
 
 
